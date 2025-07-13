@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Geist } from "next/font/google";
 import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
 
 export const metadata = {
   title: "TheDigiSeed",
@@ -18,7 +17,6 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
-        {/* <Footer /> */}
       </body>
     </html>
   );

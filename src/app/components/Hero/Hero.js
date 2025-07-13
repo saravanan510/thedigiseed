@@ -1,3 +1,4 @@
+"use client";
 import Button from "../common/button/Button";
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
           marketing, and maintenance to help your business thrive online.
         </h5>
         <div className="flex gap-4 mt-8">
-          <Button type={"contained"}>Let's Grow</Button>
+          <Button type={"contained"}>Let&apos;s Grow</Button>
           <Button>See Our Works</Button>
         </div>
       </div>
