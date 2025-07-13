@@ -1,0 +1,39 @@
+"use client";
+import Image from "next/image";
+const Clients = () => {
+  return (
+    <div>
+      <h4>Trusted By Clients Worldwide</h4>
+      <ul className="flex justify-between my-8 ">
+        <li>
+          <Image src="/Rotary club.png" width={80} height={30} />
+        </li>
+        <li>
+          <Image src="/Rotary club.png" width={80} height={30} />
+        </li>
+        <li>
+          <Image src="/Rotary club.png" width={80} height={30} />
+        </li>
+        <li>
+          <Image src="/Rotary club.png" width={80} height={30} />
+        </li>
+        <li>
+          <Image src="/Rotary club.png" width={80} height={30} />
+        </li>
+        <li>
+          <Image src="/Rotary club.png" width={80} height={30} />
+        </li>
+        <li>
+          <Image src="/Rotary club.png" width={80} height={30} />
+        </li>
+        <li>
+          <Image src="/Rotary club.png" width={80} height={30} />
+        </li>
+        <li>
+          <Image src="/Rotary club.png" width={80} height={30} />
+        </li>
+      </ul>
+    </div>
+  );
+};
+export default Clients;

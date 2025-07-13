@@ -2,7 +2,7 @@
 import Button from "../common/button/Button";
 const Hero = () => {
   return (
-    <div className="container mx-auto h-[500px] flex items-center">
+    <div className="flex items-center my-30">
       <div>
         <h1>Design. Develop. Market. Grow.</h1>
         <h5>

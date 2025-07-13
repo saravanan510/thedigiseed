@@ -6,7 +6,10 @@ body {
 
 @layer base {
   h1 {
-    @apply text-6xl font-bold leading-16 mb-4 text-[#1c1c1c];
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold  mb-4 text-[#1c1c1c];
+  }
+  h4 {
+    @apply text-lg font-semibold text-[#1c1c1c];
   }
   h5 {
     @apply text-lg font-normal text-[#525252];
