@@ -5,8 +5,8 @@ const Hero = () => {
       <div>
         <h1>Design. Develop. Market. Grow.</h1>
         <h5>
-          At TheDigiSeed, we build digital ecosystems—design, development,
-          marketing, and maintenance to <br /> help your business thrive online.
+          At TheDigiSeed, we build digital ecosystems design, development,
+          marketing, and maintenance to help your business thrive online.
         </h5>
         <div className="flex gap-4 mt-8">
           <Button type={"contained"}>Let's Grow</Button>
