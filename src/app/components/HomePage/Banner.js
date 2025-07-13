@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="h-[600px] bg-gray-200 flex justify-center items-center">
+    <div className="h-[600px] flex justify-center items-center">
       Banner goes here
     </div>
   );

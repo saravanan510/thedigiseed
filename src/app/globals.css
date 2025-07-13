@@ -3,10 +3,19 @@
 body {
   background-color: #f4f4f4;
 }
+section {
+  padding: 90px 0px;
+}
 
 @layer base {
   h1 {
     @apply text-4xl md:text-5xl lg:text-6xl font-bold  mb-4 text-[#1c1c1c];
+  }
+  h2 {
+    @apply text-5xl font-bold;
+  }
+  h3 {
+    @apply text-3xl font-medium leading-12;
   }
   h4 {
     @apply text-lg font-semibold text-[#1c1c1c];
