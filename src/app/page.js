@@ -7,15 +7,11 @@ import Services from "./components/HomePage/Services";
 export default function Home() {
   return (
     <div>
-      <div className="container mx-auto px-6 md:px-0">
-        <Hero />
-        <Clients />
-      </div>
+      {/* <Hero />
+      <Clients />
       <Banner />
-      <div className="container mx-auto px-6 md:px-0">
-        <About />
-        <Services />
-      </div>
+      <About />
+      <Services /> */}
     </div>
   );
 }
