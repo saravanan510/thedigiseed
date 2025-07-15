@@ -3,7 +3,7 @@ import Image from "next/image";
 const Button = ({ children, type }) => {
   if (type == "contained") {
     return (
-      <div className="bg-linear-to-t from-[#242424] to-[#000] text-white tracking-wide flex gap-2.5 max-w-fit rounded-[80px] p-1 pl-5 text-sm cursor-pointer shadow-lg ">
+      <div className="bg-linear-to-t from-[#242424] to-[#000] text-white tracking-wide flex gap-2.5 max-w-fit rounded-[80px] p-1.5 pl-5 text-sm cursor-pointer shadow-lg ">
         <button className="cursor-pointer">{children}</button>
         <div className="bg-white rounded-4xl flex justify-center items-center w-[32px] h-[32px] ">
           <Image

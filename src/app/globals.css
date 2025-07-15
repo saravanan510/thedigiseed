@@ -9,7 +9,7 @@ section {
 
 @layer base {
   h1 {
-    @apply text-4xl md:text-5xl lg:text-6xl font-bold  mb-4 text-[#1c1c1c];
+    @apply text-4xl md:text-5xl lg:text-6xl font-light mb-4 text-[#1c1c1c];
   }
   h2 {
     @apply text-5xl font-bold;

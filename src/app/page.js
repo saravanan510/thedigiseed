@@ -7,8 +7,8 @@ import Services from "./components/HomePage/Services";
 export default function Home() {
   return (
     <div>
-      {/* <Hero />
-      <Clients />
+      <Hero />
+      {/* <Clients />
       <Banner />
       <About />
       <Services /> */}
