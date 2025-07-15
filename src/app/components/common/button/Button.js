@@ -17,7 +17,7 @@ const Button = ({ children, type }) => {
     );
   } else {
     return (
-      <div className="border border-gray-300 h-11 flex justify-center rounded-[80px] w-[150px] text-base font-medium tracking-wide cursor-pointer">
+      <div className="border border-gray-300 h-11 flex justify-center rounded-[80px] w-[150px] font-medium tracking-wide  text-sm cursor-pointer">
         <button className="cursor-pointer">{children}</button>
       </div>
     );

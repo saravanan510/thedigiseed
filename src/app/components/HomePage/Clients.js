@@ -3,7 +3,7 @@ import Image from "next/image";
 const Clients = () => {
   return (
     <section>
-      <div>
+      <div className="container mx-auto px-6">
         <h4>Trusted By Clients Worldwide</h4>
         <ul className="flex justify-between my-8 ">
           <li>

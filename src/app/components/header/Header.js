@@ -14,7 +14,7 @@ const Header = () => {
         </ul>
 
         <div className="hidden lg:block">
-          <Button type={"contained"}>Get in touch</Button>
+          <Button type={"contained"}>Become a Client</Button>
         </div>
 
         <Image

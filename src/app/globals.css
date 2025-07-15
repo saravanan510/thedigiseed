@@ -4,15 +4,15 @@ body {
   background-color: #f4f4f4;
 }
 section {
-  padding: 90px 0px;
+  padding: 60px 0px;
 }
 
 @layer base {
   h1 {
-    @apply text-4xl md:text-5xl lg:text-6xl font-light mb-4 text-[#1c1c1c];
+    @apply text-3xl md:text-5xl lg:text-6xl font-normal mb-4 text-[#1c1c1c];
   }
   h2 {
-    @apply text-5xl font-bold;
+    @apply text-5xl font-semibold;
   }
   h3 {
     @apply text-3xl font-medium leading-12;

@@ -39,8 +39,8 @@ const Hero = () => {
 
   return (
     <section>
-      <div className="container mx-auto px-6">
-        <h1>We don't design, We solve.</h1>
+      <div className="container mx-auto px-6 mt-16">
+        <h1>We don&apos;t design, We solve.</h1>
         <h1>
           From digital ideas to your next{" "}
           <span className="font-semibold">Launch</span>
