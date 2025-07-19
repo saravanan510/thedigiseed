@@ -3,7 +3,7 @@ import Button from "../common/button/Button";
 const Footer = () => {
   return (
     <section>
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 2xl:px-20">
         <div className="flex mb-16">
           <div className="flex-1/2">
             <h2 className="mb-6">Let’s Create Something Amazing!</h2>

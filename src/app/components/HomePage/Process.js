@@ -3,7 +3,7 @@ import Image from "next/image";
 const Process = () => {
   return (
     <section>
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 2xl:px-20">
         <div className="mb-16 flex items-start justify-between">
           <h2>
             We deliver on time, in <br />

@@ -4,7 +4,7 @@ import Button from "../common/button/Button";
 const Header = () => {
   return (
     <>
-      <div className="container px-6 mx-auto h-20 flex justify-between items-center border-b border-b-gray-200">
+      <div className="container px-6 mx-auto 2xl:px-20 h-20 flex justify-between items-center border-b border-b-gray-200">
         <Image src="/thedigiseedlogo.svg" alt="logo" width={100} height={32} />
 
         <ul className="hidden lg:flex gap-8">

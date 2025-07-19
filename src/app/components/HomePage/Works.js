@@ -2,7 +2,7 @@ import Button from "../common/button/Button";
 const Works = () => {
   return (
     <section>
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 2xl:px-20">
         <div className="mb-16 flex items-start justify-between">
           <h2>
             Turn your ideas into impactful <br />

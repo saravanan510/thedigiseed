@@ -2,7 +2,7 @@ import Button from "../common/button/Button";
 const Services = () => {
   return (
     <section>
-      <div className="container mx-auto px-6 flex">
+      <div className="container mx-auto px-6 2xl:px-20 flex">
         <div className="basis-1/2">
           <h2>Website Design</h2>
         </div>

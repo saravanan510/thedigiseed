@@ -2,7 +2,7 @@ import Image from "next/image";
 const Testimonial = () => {
   return (
     <section>
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 2xl:px-20">
         <h3 className="mb-8">Client Testimonials</h3>
         <div className="flex gap-6">
           <div className="bg-[#fafafa] flex items-center rounded-2xl w-[1000px]">
