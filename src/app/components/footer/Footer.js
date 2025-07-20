@@ -28,11 +28,11 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div>
+        {/* <div>
           <h1 className="text-[200px] font-bold mt-20 text-[#ebebeb]">
             TheDigiSeed
           </h1>
-        </div>
+        </div> */}
       </div>
     </section>
   );
