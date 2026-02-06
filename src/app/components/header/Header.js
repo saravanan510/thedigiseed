@@ -28,7 +28,7 @@ const Header = () => {
 
         <div className="flex items-center gap-8 ">
           <ul className="hidden lg:flex gap-8">
-            <li>About Us</li>
+            <li>About Uss</li>
             <li>Services</li>
             <li>Works</li>
           </ul>
