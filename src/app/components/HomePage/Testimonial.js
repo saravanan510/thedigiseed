@@ -1,13 +1,12 @@
 import Image from "next/image";
 const Testimonial = () => {
   return (
-    <section>
-      <div className="container mx-auto px-6 2xl:px-20">
+      <div className="mx-auto px-6 2xl:px-20">
         <h3 className="mb-8">Client Testimonials</h3>
-        <div className="flex gap-6">
-          <div className="bg-[#fafafa] flex items-center rounded-2xl w-[1000px]">
+        <div className="flex gap-6" >
+          <div className="bg-[#fafafa] flex items-center rounded-2xl w-[100%]">
             <div className="w-48 h-48 flex justify-center items-center flex-1/3 ">
-              <Image src="/thedigiseedlogo.svg" width={100} height={100} />
+              <Image src="/thedigiseedlogo.svg" width={100} height={100} alt="Testimonial image"/>
             </div>
             <div className="p-4">
               <p className="text-lg mb-4">
@@ -22,7 +21,6 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-    </section>
   );
 };
 export default Testimonial;
