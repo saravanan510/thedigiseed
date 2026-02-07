@@ -22,9 +22,10 @@ const Header = () => {
   }, [open]);
 
   return (
-    <>
-      <div className="container relative px-6 mx-auto 2xl:px-20 h-20 flex justify-between items-center border-b border-b-gray-200">
-        <Image src="/thedigiseedlogo.svg" alt="logo" width={120} height={32} />
+        <header className="top-0 z-50 border-b border-b-gray-200">
+          {/* <div className="container px-6 mx-auto h-16 sm:h-20 flex justify-between items-center">  */}
+          <div className="w-full max-w-screen-2xl px-6 mx-auto h-16 sm:h-20 flex justify-between items-center">        
+            <Image src="/thedigiseedlogo.svg" alt="logo" width={120} height={32} />
 
         <div className="flex items-center gap-8 ">
           <ul className="hidden lg:flex gap-8">
@@ -71,7 +72,7 @@ const Header = () => {
           </div>
         </div>
       )}
-    </>
+    </header>
   );
 };
 
