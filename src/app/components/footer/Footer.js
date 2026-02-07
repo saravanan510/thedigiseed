@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Left Section - CTA */}
           <div className="flex-1">
             <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-              Let's Create Something Amazing!
+              Lets Create Something Amazing!
             </h2>
             <Button type={"contained"}>
               <span className="text-sm md:text-base lg:text-lg">
