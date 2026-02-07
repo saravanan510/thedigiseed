@@ -39,6 +39,7 @@ const Hero = () => {
 
   return (
     <section>
+<<<<<<< Updated upstream
       <div className="mx-auto px-6 2xl:px-20 my-5 sm:my-6 md:my-8 lg:my-10 xl:my-12"> 
         <h1
           className="text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold leading-tight sm:leading-tight md:leading-[1.2] lg:leading-[1.2] xl:leading-[1.15]"
@@ -57,6 +58,21 @@ const Hero = () => {
           <Button>
               See Our Works
           </Button>
+=======
+      <div className="container mx-auto px-6 2xl:px-20 mt-16">
+        <h1 className="">
+          We don&apos;t{" "}
+          <span className="bg-[#fafafa] px-2 border-2 border-[#808080]">
+            design
+          </span>
+          , We solve. <br /> From digital ideas to your next{" "}
+          <span className="font-semibold">Launch</span>
+        </h1>
+
+        <div className="flex gap-4 mt-8">
+          <Button type={"contained"}>Let&apos;s Grow</Button>
+          <Button>See Our Works</Button>
+>>>>>>> Stashed changes
         </div>
       </div>
     </section>

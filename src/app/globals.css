@@ -9,7 +9,7 @@ section {
 
 @layer base {
   h1 {
-    @apply text-3xl md:text-5xl lg:text-6xl font-normal mb-4 text-[#1c1c1c];
+    @apply text-[clamp(1.8rem,5vw,4rem)] leading-[130%] font-normal mb-4 text-[#1c1c1c];
   }
   h2 {
     @apply text-5xl font-semibold;
