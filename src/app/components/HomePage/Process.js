@@ -4,18 +4,20 @@ import Image from "next/image";
 const Process = () => {
   return (
     <section>
-      <div className="mx-auto px-6 2xl:px-20">
+      <div className="mx-auto px-4 sm:px-6 2xl:px-20">
         {/* Header Section */}
         <div className="mb-8 md:mb-12 lg:mb-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 md:gap-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
             We deliver on time, in <br className="hidden sm:block" />
             <span className="opacity-50">days and weeks</span>
           </h2>
-          <Button type={"contained"}>
-            <span className="text-sm md:text-base lg:text-lg whitespace-nowrap">
-              Let&apos;s Grow
-            </span>
-          </Button>
+          <div className="w-full sm:w-auto">
+            <Button type={"contained"}>
+              <span className="text-sm md:text-base lg:text-lg sm:whitespace-nowrap">
+                Let&apos;s Grow
+              </span>
+            </Button>
+          </div>
         </div>
 
         {/* Process Grid */}

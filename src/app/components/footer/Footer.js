@@ -4,7 +4,7 @@ import Button from "../common/button/Button";
 const Footer = () => {
   return (
     <section>
-      <div className="mx-auto px-6 2xl:px-20">
+      <div className="mx-auto px-4 sm:px-6 2xl:px-20">
         {/* Main Footer Section */}
         <div className="flex flex-col md:flex-row mb-10 md:mb-12 lg:mb-16 gap-8 md:gap-6">
           {/* Left Section - CTA */}

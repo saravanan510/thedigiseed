@@ -39,8 +39,11 @@ const Hero = () => {
 
   return (
     <section>
-      <div className="mx-auto px-6 2xl:px-20 my-5 sm:my-6 md:my-8 lg:my-10 xl:my-12">
-        <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold leading-tight sm:leading-tight md:leading-[1.2] lg:leading-[1.2] xl:leading-[1.15]">
+      <div className="mx-auto px-4 sm:px-6 2xl:px-20 my-4 sm:my-6 md:my-8 lg:my-10 xl:my-12">
+        <h1
+          ref={titleRef}
+          className="!text-[clamp(1.75rem,6vw,3rem)] sm:!text-4xl md:!text-4xl lg:!text-5xl !font-bold !leading-tight sm:!leading-tight md:!leading-[1.2]"
+        >
           We don&apos;t design, We solve.
           <br className="hidden sm:block" />
           From digital ideas to your next{" "}
@@ -48,7 +51,7 @@ const Hero = () => {
             Launch
           </span>
         </h1>
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8 md:mt-10">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8 md:mt-10 max-w-md sm:max-w-none">
           <Button type={"contained"}>Let&apos;s Grow</Button>
           <Button>See Our Works</Button>
         </div>

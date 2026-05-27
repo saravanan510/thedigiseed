@@ -2,25 +2,55 @@
 
 body {
   background-color: #f4f4f4;
+  overflow-x: hidden;
 }
+
 section {
-  padding: 60px 0px;
+  padding: 2.5rem 0;
+}
+
+@media (min-width: 640px) {
+  section {
+    padding: 3rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 3.75rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    padding: 3.75rem 0;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @layer base {
   h1 {
-    @apply text-[clamp(1.8rem,5vw,4rem)] leading-[130%] font-normal mb-4 text-[#1c1c1c];
+    @apply text-[clamp(1.75rem,5vw,4rem)] leading-[130%] font-normal mb-4 text-[#1c1c1c];
   }
   h2 {
-    @apply text-5xl font-semibold;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight;
   }
   h3 {
-    @apply text-3xl font-medium leading-12;
+    @apply text-xl sm:text-2xl md:text-3xl font-medium leading-snug md:leading-12;
   }
   h4 {
-    @apply text-lg font-semibold text-[#1c1c1c];
+    @apply text-base sm:text-lg font-semibold text-[#1c1c1c];
   }
   h5 {
-    @apply text-lg font-normal text-[#525252];
+    @apply text-base sm:text-lg font-normal text-[#525252];
   }
 }

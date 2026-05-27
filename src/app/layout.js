@@ -8,6 +8,12 @@ export const metadata = {
   description: "Web Design Agency",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 const geist = Geist({
   subsets: ["latin"],
 });

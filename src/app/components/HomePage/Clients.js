@@ -13,17 +13,17 @@ const Clients = () => {
   ];
 
   return (
-    <section className="mt-6 sm:mt-8 md:mt-10 lg:mt-12">
-      <div className="mx-auto px-6 2xl:px-20">
-        <h4 className="mb-6 sm:mb-8 md:mb-10 text-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold">
+    <section className="!py-8 sm:!py-10 md:!py-12 mt-2 sm:mt-4">
+      <div className="mx-auto px-4 sm:px-6 2xl:px-20">
+        <h4 className="mb-4 sm:mb-6 md:mb-8 text-center text-base sm:text-lg md:text-xl lg:text-2xl font-semibold px-2">
           Trusted By Clients Worldwide
         </h4>
-        <div className="overflow-x-hidden overflow-y-hidden pb-4 scrollbar-hide">
-          <ul className="flex justify-start md:justify-between items-center gap-6 sm:gap-8 md:gap-10 lg:gap-12 min-w-max md:min-w-0">
+        <div className="-mx-4 sm:mx-0 overflow-x-auto md:overflow-x-hidden pb-2 scrollbar-hide snap-x snap-mandatory">
+          <ul className="flex justify-start md:justify-between items-center gap-8 sm:gap-10 md:gap-10 lg:gap-12 px-4 sm:px-0 min-w-max md:min-w-0 md:w-full">
             {clientLogos.map((client) => (
               <li
                 key={client.id}
-                className="flex-shrink-0 w-16 min-w-[64px] sm:w-20 sm:min-w-[80px] md:w-24 md:min-w-[96px] lg:w-28 lg:min-w-[112px]"
+                className="flex-shrink-0 snap-center w-16 sm:w-20 md:w-24 lg:w-28"
               >
                 <Image
                   src={client.src}
@@ -31,7 +31,8 @@ const Clients = () => {
                   height={42}
                   alt={client.alt}
                   className="w-full h-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
-                 unoptimized/>
+                  unoptimized
+                />
               </li>
             ))}
           </ul>
