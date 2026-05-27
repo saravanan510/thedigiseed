@@ -24,18 +24,16 @@ const Works = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12 xl:gap-24">
-          <div className="basis-full md:basis-1/2 flex flex-col gap-6 sm:gap-8 md:gap-12 lg:gap-16 xl:gap-24">
-            {featured.slice(0, 2).map((study) => (
-              <ProjectCard key={study.slug} study={study} />
-            ))}
-          </div>
-          <div className="basis-full md:basis-1/2 flex flex-col gap-6 sm:gap-8 md:gap-12 lg:gap-16 xl:gap-24 md:mt-8 lg:mt-16 xl:mt-24">
-            {featured.slice(2, 4).map((study) => (
-              <ProjectCard key={study.slug} study={study} />
-            ))}
-          </div>
-        </div>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
+          {featured.map((study, index) => (
+            <li
+              key={study.slug}
+              className={index % 2 === 1 ? "sm:mt-10 md:mt-14 lg:mt-20" : ""}
+            >
+              <ProjectCard study={study} />
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
@@ -45,13 +43,13 @@ function ProjectCard({ study }) {
   return (
     <Link
       href={`/projects/${study.slug}`}
-      className="group block w-full aspect-[4/3] sm:aspect-auto sm:h-64 md:h-[300px] lg:h-[350px] xl:h-[400px] rounded-lg overflow-hidden bg-gray-200 relative"
+      className="group block w-full h-[400px] rounded-lg overflow-hidden bg-gray-200 relative"
     >
       <Image
         src={study.heroImage}
         alt={study.title}
         fill
-        sizes="(max-width: 768px) 100vw, 50vw"
+        sizes="(max-width: 640px) 100vw, 50vw"
         className="object-cover object-center group-hover:scale-[1.02] transition-transform duration-300"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex flex-col justify-end p-4 sm:p-6">
